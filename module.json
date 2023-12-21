@@ -1,0 +1,103 @@
+{
+  "id": "cooking-unleashed",
+  "title": "Cooking Unleashed",
+  "description": "All across Golarion, various delicious cuisines and meals are made everyday by chefs from various different cultures and backgrounds. Some alchemists in particular, dedicate themselves to mixing the art of alchemy with the culinary arts to create delicious and potent treats! While halflings may have been some of the earliest trailblazers of this blend of alchemy and cooking, many others have adopted these techniques throughout the inner sea!  If you wish to play a cook who can make use of potent alchemical foodstuffs or simply gain access to new options for alchemical food through feats and items, Cooking Unleashed is for you!",
+  "version": "1.6",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.315"
+  },
+  "authors": [
+    {
+      "name": "Conner Berkheiser",
+      "flags": {}
+    },
+    {
+      "name": "Lyon",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "label": "Cooking Unleashed Feats",
+      "name": "cooking-feats",
+      "path": "packs/cooking-feats.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "Cooking Unleashed Features",
+      "name": "cooking-features",
+      "path": "packs/cooking-features.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "Cooking Unleashed Equipment",
+      "name": "cooking-equipment",
+      "path": "packs/cooking-equipment.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "Cooking Unleashed Effects",
+      "name": "cooking-effects",
+      "path": "packs/cooking-effects.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "Cooking Unleashed Journal",
+      "name": "cooking-journal",
+      "path": "packs/cooking-journal.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "JournalEntry",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "5.11.0",
+          "verified": "5.11.5"
+        }
+      }
+    ]
+  },
+  "packFolders": [
+    {
+      "name": "Golarion Unleashed",
+      "sorting": "a",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Cooking Unleashed",
+          "sorting": "m",
+          "packs": [
+            "cooking-feats",
+            "cooking-features",
+            "cooking-equipment",
+            "cooking-effects",
+            "cooking-journal"
+          ]
+        }
+      ]
+    }
+  ],
+  "url": "https://github.com/Lonesomechunk/cookingunleashed",
+  "manifest": "https://raw.githubusercontent.com/Lonesomechunk/cookingunleashed/master/module.json",
+  "download": "https://github.com/Lonesomechunk/cookingunleashed/archive/refs/heads/main.zip"
+}
