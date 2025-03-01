@@ -1,0 +1,80 @@
+{
+  "id": "cooking-unleashed",
+  "title": "Cooking Unleashed",
+  "description": "All across Golarion, various delicious cuisines and meals are made everyday by chefs from various different cultures and backgrounds. Some alchemists in particular, dedicate themselves to mixing the art of alchemy with the culinary arts to create delicious and potent treats! While halflings may have been some of the earliest trailblazers of this blend of alchemy and cooking, many others have adopted these techniques throughout the inner sea!  If you wish to play a cook who can make use of potent alchemical foodstuffs or simply gain access to new options for alchemical food through feats and items, Cooking Unleashed is for you!",
+  "version": "2.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12.331"
+  },
+  "authors": [
+    {
+      "name": "Conner Berkheiser",
+      "flags": {}
+    },
+    {
+      "name": "Lyon",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "cooking-player-options",
+      "label": "Player Options",
+      "banner": "modules/cooking-unleashed/assets/banners/banner1.webp",
+      "path": "packs/player-options",
+      "type": "Item",
+      "system": "pf2e"
+    },
+    {
+      "name": "cooking-others",
+      "label": "Others",
+      "banner": "modules/cooking-unleashed/assets/banners/banner2.webp",
+      "path": "packs/others",
+      "type": "Item",
+      "system": "pf2e"
+    },
+    {
+      "name": "cooking-journal",
+      "label": "Journal",
+      "banner": "modules/cooking-unleashed/assets/banners/banner3.webp",
+      "path": "packs/journal",
+      "type": "JournalEntry",
+      "system": "pf2e"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "6.9.0",
+          "verified": "6.9.0"
+        }
+      }
+    ]
+  },
+  "packFolders": [
+    {
+      "name": "Golarion Unleashed",
+      "sorting": "a",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Cooking Unleashed",
+          "sorting": "m",
+          "packs": [
+            "cooking-player-options",
+            "cooking-others",
+            "cooking-journal"
+          ]
+        }
+      ]
+    }
+  ],
+  "url": "https://github.com/Lonesomechunk/cookingunleashed",
+  "manifest": "https://raw.githubusercontent.com/Lonesomechunk/cookingunleashed/master/module.json",
+  "download": "https://github.com/Lonesomechunk/cookingunleashed/archive/refs/heads/main.zip"
+}
